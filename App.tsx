@@ -1,11 +1,10 @@
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
+import StackRoute from './app/routes/stackNavigation/stackNavigation';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text>Master branch</Text>
-    </SafeAreaView>
+    <StackRoute />
   );
 };
 
