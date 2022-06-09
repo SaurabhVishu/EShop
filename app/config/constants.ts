@@ -1,3 +1,5 @@
+import icons from "./icons"
+
 const walkthrough_01_01_images = [
     require("../assets/images/walkthrough/walkthrough_01_01.png"),
     require("../assets/images/walkthrough/walkthrough_01_02.png"),
@@ -35,6 +37,42 @@ const walkthrough = [
     },
 ]
 
+
+const signupdata=[
+    {
+        id:1,
+        placeholder:"name",
+        icon:icons.person,
+        rightIcon:undefined
+    },
+    {
+        id:2,
+        placeholder:"Email",
+        icon:icons.email,
+        rightIcon:undefined
+    },
+    {
+        id:3,
+        placeholder:"Phone",
+        icon:icons.phone,
+        rightIcon:undefined
+    },
+    {
+        id:4,
+        placeholder:"Country",
+        icon:undefined,
+        rightIcon:icons.arrow_down_fill,
+
+    },
+    {
+        id:5,
+        placeholder:"Password",
+        icon:icons.lock,
+        rightIcon:icons.eye
+    },
+
+]
+
 const homeTabs = ['Product', 'My Cart', 'Service']
 
 const FormInput={
@@ -46,12 +84,16 @@ const FormInput={
 
 }
 
-const ScreensData={
+const screensData={
     Signin:{
         SIGN_IN_TEXT:"Sign in to continue.",
         DONT_HAVE_AN_ACCOUNT:"Don't have an account"
     },
-
+    signUpScreen:{
+        createNew:"Create new",
+        account:"account",
+        description:"By registering you agree to out Terms and that you have read out Data Use Policy"
+    }
 }
 
 const button={
@@ -65,6 +107,7 @@ export default {
     walkthrough,
     homeTabs,
     FormInput,
-    ScreensData,
-    button
+    screensData,
+    button,
+    signupdata,
 }

@@ -1,3 +1,4 @@
 import HomeViewModel from "./HomeViewModel";
 import SignInViveModel from "./SignInViewModel";
-export {HomeViewModel,SignInViveModel}
+import SignUpViewModel from "./SignUpViewModel";
+export {HomeViewModel,SignUpViewModel,SignInViveModel}
