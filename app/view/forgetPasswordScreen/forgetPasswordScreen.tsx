@@ -18,9 +18,9 @@ return(
                 style={styles.leftArrow}
                 />
             </TouchableOpacity>
-            <Text style={styles.headingText}>{constants.screenData.forgetPassword.forgetPassword}</Text>
+            <Text style={styles.headingText}>{constants.screensData.forgetPassword.forgetPassword}</Text>
         </View>
-        <Text style={styles.textHeading}>{constants.screenData.forgetPassword.continueUsingPhoneNumber}</Text>
+        <Text style={styles.textHeading}>{constants.screensData.forgetPassword.continueUsingPhoneNumber}</Text>
         <View style={styles.phoneContainer}>
             <Image source={icons.phone} style={styles.phoneIcon}/>
             <TextInput
@@ -29,7 +29,7 @@ return(
         </View>
         <View style={styles.bottomContainer}>
         <TouchableOpacity style={styles.sendButton}>
-            <Text style={styles.buttonText}>{constants.screenData.forgetPassword.sendVerificationCode}</Text>
+            <Text style={styles.buttonText}>{constants.screensData.forgetPassword.sendVerificationCode}</Text>
         </TouchableOpacity>
         </View>
     </SafeAreaView>

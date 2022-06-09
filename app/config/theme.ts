@@ -78,7 +78,9 @@ export const COLORS = {
 
     // Support 5
     support5: 'rgba(123, 96, 238, 1)',
-    support5_08: 'rgba(123, 96, 238, 0.08)'
+    support5_08: 'rgba(123, 96, 238, 0.08)',
+
+    
 }
 
 export const SIZES = {

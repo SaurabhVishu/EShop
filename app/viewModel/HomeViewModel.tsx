@@ -1,11 +1,10 @@
 import React from "react";
 import { View } from "react-native";
+import { navigationDataType } from "../models";
 import HomeScreen from "../view/home/HomeScreen";
 
-interface HomeViewModelprops{
-    navigation:any
-}
-const HomeViewModel=(props:HomeViewModelprops)=>{
+
+const HomeViewModel=(props:navigationDataType)=>{
     const {navigation}=props
     
     return(

@@ -1,3 +1,5 @@
+import icons from "./icons"
+
 const banners = [
     {
         id: 1,
@@ -66,6 +68,8 @@ const quickALinks = [
     }
 
 ]
+
+
 
 
 export default {
