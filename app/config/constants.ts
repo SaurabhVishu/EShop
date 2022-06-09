@@ -41,7 +41,8 @@ const FormInput={
     NAME:"Name",
     EMAIL:"Email",
     PASSWORD:"Password",
-    FORGET_PASSWORD:"Forget Password"
+    FORGET_PASSWORD:"Forget Password",
+
 
 }
 
@@ -49,7 +50,8 @@ const ScreensData={
     Signin:{
         SIGN_IN_TEXT:"Sign in to continue.",
         DONT_HAVE_AN_ACCOUNT:"Don't have an account"
-    }
+    },
+
 }
 
 const button={

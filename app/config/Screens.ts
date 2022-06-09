@@ -1,4 +1,5 @@
 const Screens={
-      SIGN_IN :"Signin"
+      SIGN_IN :"Signin",
+      HOME:"Home"
 }
 export default Screens

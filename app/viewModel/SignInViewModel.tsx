@@ -1,11 +1,10 @@
 import React from "react";
 import { View } from "react-native";
-import SignInScreen from "../view/signIn/SignInViewModel";
+import { navigationDataType } from "../models";
+import SignInScreen from "../view/signIn/SignInScreen";
 
-interface SignInViveModelprops{
-    navigation:any
-}
-const SignInViveModel=(props:SignInViveModelprops)=>{
+
+const SignInViveModel=(props:navigationDataType)=>{
     const {navigation}=props
     
     return(

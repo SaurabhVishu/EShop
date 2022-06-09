@@ -13,7 +13,7 @@ function StackRoute() {
     return (
       <NavigationContainer>
         <Stack.Navigator initialRouteName={Screens.SIGN_IN} screenOptions={{headerShown:false}}>
-          <Stack.Screen name="Home" component={HomeViewModel} />
+          <Stack.Screen name={Screens.HOME} component={HomeViewModel} />
           <Stack.Screen name={Screens.SIGN_IN} component={SignInViveModel} />
         </Stack.Navigator>
       </NavigationContainer>
