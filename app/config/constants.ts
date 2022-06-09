@@ -105,6 +105,11 @@ const screensData={
         forgetPassword:'Forget Password',
         continueUsingPhoneNumber:'continue using phone number.',
         sendVerificationCode:'Send Verification Code',
+    },
+    welcomeScreen:{
+        welcomeText:'Welcome to E-Shop',
+        getStarted:'Get Started',
+        alreadyHaveAccount:'Already Have Account'
     }
 }
 
