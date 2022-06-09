@@ -1,7 +1,8 @@
 import React from "react";
 import {Image, SafeAreaView, Text , TextInput, TouchableOpacity, View} from 'react-native';
-import { icons,constants } from "../../config";
+import { icons,constants, COLORS } from "../../config";
 import styles from "./style";
+import {Button} from '../../components'
 
 interface InputProps{
     navigation:any;
@@ -28,9 +29,12 @@ return(
             />
         </View>
         <View style={styles.bottomContainer}>
-        <TouchableOpacity style={styles.sendButton}>
-            <Text style={styles.buttonText}>{constants.screensData.forgetPassword.sendVerificationCode}</Text>
-        </TouchableOpacity>
+       
+        <Button
+                buttonText={constants.screensData.forgetPassword.sendVerificationCode}
+                buttonColor={COLORS.primary} onPress={()=>undefined}
+               textColor={COLORS.secondary}
+            />
         </View>
     </SafeAreaView>
 )

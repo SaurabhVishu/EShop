@@ -1,18 +1,27 @@
 import React from "react";
-import { View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
+import styles from './style';
 
-interface Screenprops{
-    navigation:any
+interface InputProps{
+    onPress:any;
+    buttonText:string;
+    buttonColor:string;
+    textColor:string;
 }
-const Screen=(props:Screenprops)=>{
-    const {navigation}=props
+const Button=(props:InputProps)=>{
+    const {
+        onPress,
+        buttonText,
+        buttonColor,
+        textColor
+    }=props
     
     return(
-        <View>
-
-        </View>
+       <TouchableOpacity onPress={()=>onPress()} style={[styles.button,{backgroundColor:buttonColor}]} >
+           <Text style={[styles.text, {color:textColor}]}>{buttonText}</Text>
+       </TouchableOpacity>
     )
 }
 
-export default Screen
+export default Button;
 
