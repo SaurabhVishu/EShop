@@ -1,2 +1,3 @@
 import HomeViewModel from "./HomeViewModel";
-export {HomeViewModel}
+import ForgetPasswordViewModel from "./forgetPasswordViewModel";
+export {HomeViewModel, ForgetPasswordViewModel};

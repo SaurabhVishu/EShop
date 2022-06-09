@@ -37,9 +37,25 @@ const walkthrough = [
 
 const homeTabs = ['Product', 'My Cart', 'Service']
 
+const keyword={
+    
+
+}
+
+const screenData = {
+    forgetPassword:{
+        forgetPassword:'Forget Password',
+        continueUsingPhoneNumber:'continue using phone number.',
+        sendVerificationCode:'Send Verification Code',
+    }
+}
+
+
 export default {
     walkthrough_01_01_images,
     walkthrough_01_02_images,
     walkthrough,
-    homeTabs
+    homeTabs,
+    keyword,
+    screenData,
 }
