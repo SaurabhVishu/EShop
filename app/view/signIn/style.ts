@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     justifyContent:"space-between"
   },
   logo: {
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
     resizeMode: 'contain',
     alignSelf: 'center',
   },
@@ -104,6 +104,10 @@ const styles = StyleSheet.create({
   textStyle:{
       fontSize:17,
       marginRight:10
+  },
+  invalidText:{
+    color: COLORS.error,
+    ...FONTS.body5
   }
 });
 
