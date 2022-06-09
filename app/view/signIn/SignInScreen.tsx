@@ -23,7 +23,7 @@ const SignInScreen = (props: SignInScreenprops) => {
                 <Image source={icons.logo} style={styles.logo} />
                 <View style={styles.boxContainer}>
                     <Text style={styles.headingText}>
-                        {constants.ScreensData.Signin.SIGN_IN_TEXT}
+                        {constants.screensData.Signin.SIGN_IN_TEXT}
                     </Text>
 
                     <View style={styles.inputContainer}>
@@ -55,7 +55,7 @@ const SignInScreen = (props: SignInScreenprops) => {
                     </TouchableOpacity>
                 </View>
                 <View style={styles.signUpTextContainer}>
-                    <Text style={styles.textStyle}>{constants.ScreensData.Signin.DONT_HAVE_AN_ACCOUNT}</Text>
+                    <Text style={styles.textStyle}>{constants.screensData.Signin.DONT_HAVE_AN_ACCOUNT}</Text>
                     <Text style={styles.forgetPasswordText}></Text>
                 </View>
             </View>
