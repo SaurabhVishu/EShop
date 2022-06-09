@@ -80,6 +80,12 @@ const FormInput={
     EMAIL:"Email",
     PASSWORD:"Password",
     FORGET_PASSWORD:"Forget Password",
+    validation: {
+        USERNAME: 'Invalid Username',
+        EMAILVALIDATION: 'Invalid Email',
+        PASSWORDVALIDATION:
+          'Min 8 letter password, with at least a symbol, upper and lower case letters and a number',
+      },
 
 
 }
