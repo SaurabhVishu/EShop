@@ -38,32 +38,40 @@ const SignUpScreen = (props: Inputprop) => {
           {Screendata.map((item, index) => {
             return (
               <View style={styles.textView}>
-            
-                  <View style={{flexDirection:"row",alignItems:"center"}}>
-                    {index != 3 && (
-                      <Image style={styles.textInputIcon} source={item.icon} />
-                    )}
-                    <TextInput
-                      placeholder={item.placeholder}
-                      style={styles.placeholder}
+                <View style={styles.textInputContainer}>
+                  {index != 3 && (
+                    <Image style={styles.textInputIcon} source={item.icon} />
+                  )}
+                  <TextInput
+                    placeholder={item.placeholder}
+                    style={styles.placeholder}
+                  />
+                </View>
+                {index >= 3 && (
+                  <TouchableOpacity>
+                    <Image
+                      style={styles.textInputIcon}
+                      source={item.rightIcon}
                     />
-                    </View>
-                  {index >= 3 && (
-                      <TouchableOpacity>
-                        <Image
-                          style={styles.textInputIcon}
-                          source={item.rightIcon}
-                        />
-                      </TouchableOpacity>
-                    )}
+                  </TouchableOpacity>
+                )}
               </View>
             );
           })}
         </View>
-        <View style={{flexDirection:"row",alignItems:"center"}}>
-        <TouchableOpacity style={{height:20,width:20,borderRadius:5,borderColor:"grey",borderWidth:2,marginRight:5}}/>
-        <Text>{constants.screensData.signUpScreen.description}</Text>
-        </View> 
+        <View style={styles.clickBoxContainer}>
+          <TouchableOpacity style={styles.clickBox} />
+          <Text>{constants.screensData.signUpScreen.description}</Text>
+        </View>
+        <TouchableOpacity style={styles.crateAcountButton}>
+          <Text style={styles.createAccountText}>
+            {constants.button.CREATE_ACCOUNT}
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <View style={{flexDirection:"row",alignItems:"center",justifyContent:"center"}}>
+      <Text>{constants.screensData.signUpScreen.I_HAVE_ALREADY_ACCOUNT}</Text>
+      <TouchableOpacity><Text style={styles.signInText}>{constants.button.SIGN_IN}</Text></TouchableOpacity>
       </View>
     </SafeAreaView>
   );

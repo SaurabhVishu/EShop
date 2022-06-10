@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator();
 function StackRoute() {
     return (
       <NavigationContainer>
-        <Stack.Navigator initialRouteName={Screens.SIGN_IN} screenOptions={{headerShown:false}}>
+        <Stack.Navigator initialRouteName={Screens.SIGN_UP} screenOptions={{headerShown:false}}>
           <Stack.Screen name={Screens.HOME} component={HomeViewModel} />
           <Stack.Screen name={Screens.SIGN_IN} component={SignInViveModel} />
           <Stack.Screen name={Screens.SIGN_UP} component={SignUpViewModel} />
