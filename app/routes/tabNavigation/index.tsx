@@ -19,13 +19,14 @@ export default function TabNavigation() {
                 tabBarStyle: {
                     flex: 1,
                     height: 90,
-                    borderRadius: 10,
-                    backgroundColor: COLORS.light,
+                    // borderRadius: 10,
+                    backgroundColor: COLORS.light08,
                     position: 'absolute',
-                    shadowOffset: { width: 1, height: 2 },
-                    shadowOpacity: 1,
-                    shadowRadius: 3,
-                    elevation: 2,
+                
+                    // shadowOffset: { width: 1, height: 2 },
+                    // shadowOpacity: 1,
+                    // shadowRadius: 3,
+                    elevation: 20,
                 },
             }}>
             <Tab.Screen name="HomeTab" component={HomeViewModel}
