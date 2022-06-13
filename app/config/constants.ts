@@ -105,12 +105,17 @@ const screensData={
         forgetPassword:'Forget Password',
         continueUsingPhoneNumber:'continue using phone number.',
         sendVerificationCode:'Send Verification Code',
+        description:"By registering you agree to out Terms and that you have read out Data Use Policy",
+        I_HAVE_ALREADY_ACCOUNT:"I already have an account."
+    
     }
 }
 
 const button={
     LOG_IN:"Log In",
-    CREATE_NEW_ACCOUNT:"Create New Account"
+    CREATE_NEW_ACCOUNT:"Create New Account",
+    CREATE_ACCOUNT:"Create Account",
+    SIGN_IN:"Sign In",
 }
 
 export default {

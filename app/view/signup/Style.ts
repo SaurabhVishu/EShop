@@ -9,7 +9,6 @@ const  styles=StyleSheet.create({
     },
     logoContainer:{
         alignItems:"center",
-        marginVertical:5,
     
     },
     logo:{
@@ -22,13 +21,18 @@ const  styles=StyleSheet.create({
         fontSize:SIZES.h1,
         fontWeight:"bold",
         color:"black",
-        marginTop:5
+        //marginTop:5
     },
     cardView:{
         backgroundColor:"white",
-        padding:15,
+        padding:20,
         borderRadius:8,
-        marginVertical:10
+        elevation: 20,
+       // marginVertical:10
+    },
+    signInText:{
+        fontSize:15,
+        color:COLORS.support1
     },
 textView:{
         backgroundColor:COLORS.lightGrey,
@@ -37,6 +41,10 @@ textView:{
         alignItems:"center",
         flexDirection:"row",
         justifyContent:"space-between"
+    },
+    textInputContainer:{
+        flexDirection:"row",
+        alignItems:"center"
     },
     textInputIcon:{
         height:25,
@@ -47,7 +55,35 @@ textView:{
         fontSize:15
     },
     mapContainer:{
-        marginVertical:10
+       // marginVertical:10
+    },
+    clickBoxContainer:{
+        flexDirection:"row",
+        alignItems:"center"
+    },
+    clickBox:{
+        height:20,
+        width:20,
+        borderRadius:5,
+        borderColor:"grey",
+        borderWidth:2,
+        marginRight:5
+    },
+    crateAcountButton:{
+        backgroundColor:COLORS.primary60,
+        padding:18,
+        borderRadius:10,
+        alignItems:"center"
+    },
+    createAccountText:{
+        fontSize:FONTS.body3.fontSize,
+        fontWeight:"bold",
+        color:COLORS.light
+    },
+    haveAccountContainer:{
+        flexDirection:"row",
+        alignItems:"center",
+        justifyContent:"center"
     },
 })
 
