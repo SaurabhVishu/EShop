@@ -80,6 +80,11 @@ textView:{
         fontWeight:"bold",
         color:COLORS.light
     },
+    haveAccountContainer:{
+        flexDirection:"row",
+        alignItems:"center",
+        justifyContent:"center"
+    },
 })
 
 export default styles

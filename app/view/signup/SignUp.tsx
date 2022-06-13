@@ -37,7 +37,7 @@ const SignUpScreen = (props: Inputprop) => {
         <View style={styles.mapContainer}>
           {Screendata.map((item, index) => {
             return (
-              <View style={styles.textView}>
+              <View style={styles.textView} key={index}>
                 <View style={styles.textInputContainer}>
                   {index != 3 && (
                     <Image style={styles.textInputIcon} source={item.icon} />
@@ -69,7 +69,7 @@ const SignUpScreen = (props: Inputprop) => {
           </Text>
         </TouchableOpacity>
       </View>
-      <View style={{flexDirection:"row",alignItems:"center",justifyContent:"center"}}>
+      <View style={styles.haveAccountContainer}>
       <Text>{constants.screensData.signUpScreen.I_HAVE_ALREADY_ACCOUNT}</Text>
       <TouchableOpacity><Text style={styles.signInText}>{constants.button.SIGN_IN}</Text></TouchableOpacity>
       </View>
