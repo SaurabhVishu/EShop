@@ -16,9 +16,21 @@ const phone = require('../assets/icons/phone.png');
 const google = require('../assets/icons/google.png');
 const twitter = require('../assets/icons/twitter.png');
 const linkedin = require('../assets/icons/linkedin.png');
+const notification= require('../assets/icons/notification.png')
+const home=require('../assets/icons/home.png')
+const user=require('../assets/icons/user.png')
+const qrCode=require('../assets/icons/qr-code-scan.png')
+const gift=require('../assets/icons/gift.png')
+const coupon=require('../assets/icons/discount.png')
+
+
+
+
+
 
 
 export default {
+    home,user,qrCode,gift,coupon,
     arrow_down_fill,
     arrow_left,
     checkmark,
@@ -37,4 +49,5 @@ export default {
     google,
     twitter,
     linkedin,
+    notification
 }
