@@ -4,7 +4,9 @@ import StackRoute from './app/routes/stackNavigation/stackNavigation';
 
 const App = () => {
   return (
+    
     <StackRoute />
+    
   );
 };
 
