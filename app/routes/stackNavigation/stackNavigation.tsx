@@ -12,7 +12,9 @@ function StackRoute() {
     return (
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeViewModel} />
+          <Stack.Screen name="Home" component={HomeViewModel}
+         options={{headerShown: false}}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     );
